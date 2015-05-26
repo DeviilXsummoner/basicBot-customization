@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "DeviilXsummoner";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,10 +55,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "RPBot",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 23, // 1-200
+        startupVolume: 100, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
@@ -72,10 +72,10 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
+        voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 8,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -91,9 +91,9 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Come check out our RSPS: http://runeproject.org",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
