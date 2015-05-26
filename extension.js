@@ -102,7 +102,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: true,
+        website: "http://runeproject.org",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
