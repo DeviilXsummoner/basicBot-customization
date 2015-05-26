@@ -102,7 +102,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: true,
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
